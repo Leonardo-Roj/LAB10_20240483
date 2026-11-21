@@ -7,7 +7,7 @@ public class DtoEquipos {
     private static String ipGestion;
     private static String estado;
     private static String fechaAlta;
-    private DtoSedes sede;
+    private static DtoSedes sede;
 
     public static int getIdEquipo() {
         return idEquipo;
