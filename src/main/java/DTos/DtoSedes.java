@@ -8,6 +8,10 @@ public class DtoSedes {
     public DtoSedes(int idSede, String nombre, String sede) {
     }
 
+    public DtoSedes() {
+
+    }
+
     public int getIdSede() {
         return idSede;
     }

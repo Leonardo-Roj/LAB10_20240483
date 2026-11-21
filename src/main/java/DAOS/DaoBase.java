@@ -7,9 +7,9 @@ import java.sql.*;
 
 public class DaoBase {
 
-    protected String user = "root";
-    protected String pass = "12345678";
-    protected String url = "jdbc:mysql://localhost:3306/lab10_telecom";
+    protected static String user = "root";
+    protected static String pass = "12345678";
+    protected static String url = "jdbc:mysql://localhost:3306/lab10_telecom";
 
     public static Connection getConnection() throws SQLException{
         try {
